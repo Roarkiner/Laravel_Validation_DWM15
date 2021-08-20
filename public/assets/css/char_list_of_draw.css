@@ -1,0 +1,15 @@
+h1{
+    font-size: 1.8em;
+}
+
+main{
+    font-size: 1.3em;
+}
+
+#characters-list, #empty-list{
+    margin: 30px 0 30px 20px;
+}
+
+ul li{
+    margin-top: 10px;
+}

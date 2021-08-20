@@ -1,0 +1,82 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 70%;
+}
+
+form > div{
+    margin: 5px 0;
+    width: 80%;
+}
+
+label{
+    display: block;
+    width: 50%;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.checkbox label{
+    display: contents;
+    width: auto;
+}
+
+form > div input, textarea, select{
+    padding: 5px 5px;
+    width: 100%;
+}
+
+input[type="submit"]{
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+#back-to-list-button{
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#back-to-list-button:hover{
+    background-color: #ce8f13;
+    box-shadow: 5px 5px 2px inset #91650e;
+}
+
+#char_lim{
+    float: right;
+}
+
+.error{
+    padding-top: 5px;
+    color: red;
+}
+
+.input_error{
+    border-style: solid;
+    border-color: red;
+}
+
+.checkbox{
+    padding: 5px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox > div{
+    padding: 2px 5px;
+}
+
+legend{
+    font-size: larger;
+}
